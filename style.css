@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap');
+ 
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .calci{
+    border:1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: black;
+ }
+
+ input{
+width: 260px;
+margin-top: 10px;
+margin-left: 10px;
+border:none;
+background: transparent;
+padding:5px;
+margin-bottom:20px;
+font-size: 35px;
+text-align: right;
+cursor: pointer;
+border-radius: 15px;
+color:white;
+border-color: transparent;
+ }
+
+ input::placeholder{
+    color: rgba(255, 255, 255, 0.322);
+ }
+
+button{
+    width:60px;
+    height: 60px;
+    margin: 3px;
+    margin-bottom: 9px;
+    margin-left: 4px;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    color:white;
+    background-color: #363636;
+    font-family: 'Google Sans';
+    font-size: 20px;
+}
+
+.equal{
+background-color: orange;
+}
+
+.op{
+    background-color: #696969;
+}
